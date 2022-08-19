@@ -5,7 +5,6 @@ import data from './data';
 function App() {
   const [people, setPeople] = useState(data);
   const [index, setIndex] = React.useState(0);
-
   useEffect(() => {
     const lastIndex = people.length - 1;
     if (index < 0) {
